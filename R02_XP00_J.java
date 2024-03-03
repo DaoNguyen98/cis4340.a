@@ -6,7 +6,7 @@ public class R02_XP00_J {
 	// Do something with someFile
 	if (!someFile.delete()) {
 		//Handle failure to delete the file
-	}
+
 	}
 }	
 
