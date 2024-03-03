@@ -1,6 +1,8 @@
 
 public class R06_MET10_J {
+
 	class GameEntry {
+
 		  public enum Roshambo {ROCK, PAPER, SCISSORS}
 		  private Roshambo value;
 		 
@@ -8,6 +10,7 @@ public class R06_MET10_J {
 		    this.value = value;
 		  }
 		 
+
 		  public int beats(Object that) {
 		    if (!(that instanceof GameEntry)) {
 		      throw new ClassCastException();

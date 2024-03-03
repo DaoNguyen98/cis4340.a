@@ -1,7 +1,7 @@
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-//edit 
+
 public class R00_IDS16_J {
 	private static void createXMLStream(final BufferedOutputStream outStream,
 		      final String quantity) throws IOException, NumberFormatException {
@@ -9,6 +9,7 @@ public class R00_IDS16_J {
 		    int count = Integer.parseUnsignedInt(quantity);
 		    String xmlString = "<item>\n<description>Widget</description>\n"
 		        + "<price>500</price>\n" + "<quantity>" + count + "</quantity></item>";
+
 		    outStream.write(xmlString.getBytes());
 		    outStream.flush();
 		  }
