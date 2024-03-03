@@ -1,6 +1,7 @@
 import java.util.GregorianCalendar;
 
 public class R00_IDS06_J {
+
 	static Calendar c =
 		    new GregorianCalendar(1995, GregorianCalendar.MAY, 23);
 		  public static void main(String[] args) { 
@@ -12,4 +13,5 @@ public class R00_IDS06_J {
 		      args[0], c
 		    );
 		  }
+
 	}
